@@ -21,3 +21,4 @@ export * from "./terraform-dependable";
 export * from "./manifest";
 export * from "./terraform-asset";
 export * from "./terraform-functions";
+export * from "./tfExpression";
