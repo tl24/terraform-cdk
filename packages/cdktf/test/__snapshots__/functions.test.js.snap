@@ -19,7 +19,7 @@ exports[`combined functions 1`] = `
   },
   \\"output\\": {
     \\"test-output\\": {
-      \\"value\\": \\"\${try(lookup(element(var.list, var.index), \\\\\\"internal\\\\\\", \\\\\\"waaat\\\\\\")\, timestamp(), uuid())}\\"
+      \\"value\\": \\"\${try(lookup(element(var.list, var.index), \\\\\\"internal\\\\\\", \\\\\\"waaat\\\\\\"), \\\\\\"\${timestamp()}\\\\\\", \\\\\\"\${uuid()}\\\\\\")}\\"
     }
   }
 }"
